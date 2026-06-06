@@ -12,7 +12,7 @@ CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY", "ВСТАВЬ_CLAUDE_KEY_СЮ�
 
 # Белый список — только управляющая может пользоваться
 # Добавь Telegram ID управляющей (как узнать — написано в README)
-ALLOWED_USERS = []  # Пример: [123456789, 987654321]
+ALLOWED_USERS = [343083479, 810527867]  # Пример: [123456789, 987654321]
 
 logging.basicConfig(level=logging.INFO)
 
